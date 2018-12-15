@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
           package="com.tunahan.instagram">
 
     <application
@@ -9,12 +10,22 @@
             android:roundIcon="@mipmap/ic_launcher_round"
             android:supportsRtl="true"
             android:theme="@style/AppTheme">
-        <activity android:name=".HomeActivity">
+        <activity android:name=".Home.HomeActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
 
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
+        </activity>
+        <activity android:name=".News.NewsActivity">
+        </activity>
+        <activity android:name=".Profile.ProfileActivity">
+        </activity>
+        <activity android:name=".Search.SearchActivity">
+        </activity>
+        <activity android:name=".Share.ShareActivity">
+        </activity>
+        <activity android:name=".Profile.ProfileSettingsActivity">
         </activity>
     </application>
 
